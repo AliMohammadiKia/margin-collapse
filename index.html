@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin Collapse</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Margin Collapse in CSS</h1>
+    <div>
+      <div class="box box1">
+        <p>height: 100px; margin-bottom: 2rem;</p>
+      </div>
+      <div class="box box2">
+        <p>height: 100px; margin-top: 1rem;</p>
+      </div>
+    </div>
+    <div class="box result">
+      <p>The sum of the two boxes above is 232 pixels instead of 248 pixels!</p>
+    </div>
+    <a
+      href="https://drive.google.com/uc?export=view&id=1r6H6IsbXjNvzmL_TmJRXJo_NoFdkh-KB"
+      target="_blank"
+    >
+      <img
+        src="https://drive.google.com/uc?export=view&id=1r6H6IsbXjNvzmL_TmJRXJo_NoFdkh-KB"
+        alt="margin-collapse-image"
+      />
+    </a>
+  </body>
+</html>
